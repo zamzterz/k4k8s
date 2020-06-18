@@ -1,0 +1,7 @@
+image:
+  repository: kong-with-local-plugin
+  tag: latest
+env:
+  go_pluginserver_exe: /usr/local/bin/go-pluginserver
+  plugins: bundled,token-introspection
+  go_plugins_dir: /usr/local/go-plugins
